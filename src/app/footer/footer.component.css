@@ -1,0 +1,92 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    height: 10em;
+    background-color: #6E07F3;
+    position: relative;
+    top: 45em;
+}
+
+ul{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    width: 1.75em;
+    height: 1.75em;
+    background-color: #fff;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 2.1875em;
+    margin: 0 0.65em;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 0.1875em solid #fff;
+    z-index: 1;
+}
+
+ul li a .icon{
+    position: relative;
+    color: #262626;
+    transition: .2s;
+    z-index: 3;
+}
+
+ul li a:hover .icon{
+    color: #fff;
+    transform: rotateY(360deg);
+}
+
+ul li a:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+}
+
+ul li a:hover:before{
+    top: 0;
+}
+
+ul li:nth-child(1) a:before{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+ul li:nth-child(2) a:before{
+    background: #0A66C2;
+}
+
+ul li:nth-child(3) a:before{
+    background: #4078c0;
+}
+
+p{
+    padding: 0.75em;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 414px){
+    section {
+        top: 20em;
+    }
+}

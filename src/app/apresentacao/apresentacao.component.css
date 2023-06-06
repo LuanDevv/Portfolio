@@ -1,0 +1,45 @@
+section{
+    height: 35em;
+    background-color: #6E07F3;
+    position: relative;
+    top: 29.7em;
+}
+
+h2{
+    color: white;
+    font-family: "Kanit";
+    text-align: center;
+    padding-top: 4em;
+    font-size: 1.8em;
+}
+
+p{
+    color: white;
+    font-family: "Kanit";
+    text-align: center;
+    padding-top: 1em;
+    font-size: 1.3em;
+    width: 40%;
+    position: relative;
+    left: 29%;
+}
+
+div{
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 414px){
+    section {
+        top: 8.6em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    p {
+        width: 83%;
+        font-size: 1.15em;
+        left: 8%;
+    }
+}

@@ -1,0 +1,38 @@
+ul li{
+    display: inline;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    height: 5em;
+}
+
+ul li a{
+    position: relative;
+    padding: 1em 2em;
+    top: 1.5em;
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto";
+    font-size: 1.25em;
+    transform: translateX(0);
+    cursor: hand;
+}
+
+ul li a:hover{
+    color: #6E07F3;
+    transition: 0.3s;
+}
+
+#conhecimento{
+    transition: 4s;
+}
+
+@media screen and (max-width: 414px){
+    nav {
+        display: none;  
+    }
+}

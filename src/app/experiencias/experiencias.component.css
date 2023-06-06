@@ -1,0 +1,22 @@
+section{
+    position: relative;
+    top: 21em;
+    text-align: center;
+    color: #141c3a;
+    font-size: 1.4em;
+}
+
+img{
+    margin-top: 3em;
+    width: 35%;
+}
+
+@media screen and (max-width: 414px){
+    section {
+        top: 8em;
+    }
+    
+    img {
+        width: 70%;
+    }
+}
