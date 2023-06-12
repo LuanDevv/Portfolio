@@ -1,0 +1,43 @@
+h1{
+    font-family: "Kanit";
+    font-weight: 600;
+    text-align: center;
+    margin-top: 7%;
+    font-size: 2.9em;
+    color: #141c3a;
+}
+
+#perfil{
+    width: 15%;
+    border-radius: 50%;
+    position: relative;
+    left: 42.5%;
+    top: 2em;
+}
+
+#dev{
+    width: 45%;
+    position: relative;
+    top: 30.1em;
+    left: 12.7%;
+}
+
+@media screen and (max-width: 414px){
+    h1 {
+        font-size: 2.2em;
+        position: relative;
+        top: 1em;
+    }
+
+    #perfil {
+        width: 50%;
+        left: 25%;
+        top: 4em;
+    }
+
+    #dev {
+        width: 80%;
+        top: 9em;
+        left: 10%;
+    }
+}
